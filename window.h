@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QPixmap>
 
-class ComponentList;
+class ComponentsList;
 class EngineWidget;
 QT_BEGIN_NAMESPACE
 class QListWidgetItem;
@@ -28,8 +28,8 @@ private:
     void setupMenus();
     void setupWidgets();
 
-    QPixmap componentImage;
-    ComponentList *componentList;
+    QPixmap engineImage;
+    ComponentsList *componentsList;
     EngineWidget *engineWidget;
 
 };

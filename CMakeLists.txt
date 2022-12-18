@@ -15,7 +15,13 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 set(PROJECT_SOURCES
         main.cpp
         window.h window.cpp
+        updater.h updater.cpp
+        componentslist.h componentslist.cpp
+        enginewidget.h enginewidget.cpp
         mainwindow.ui
+        engine.qrc
+        engine.pro
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
